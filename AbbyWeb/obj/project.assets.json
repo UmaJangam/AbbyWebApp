@@ -2,15 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Azure.Core/1.24.0": {
+      "Azure.Core/1.20.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
           "System.Diagnostics.DiagnosticSource": "4.6.0",
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2",
+          "System.Text.Json": "4.6.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -20,15 +20,15 @@
           "lib/net5.0/Azure.Core.dll": {}
         }
       },
-      "Azure.Identity/1.6.0": {
+      "Azure.Identity/1.5.0": {
         "type": "package",
         "dependencies": {
-          "Azure.Core": "1.24.0",
-          "Microsoft.Identity.Client": "4.39.0",
-          "Microsoft.Identity.Client.Extensions.Msal": "2.19.3",
+          "Azure.Core": "1.20.0",
+          "Microsoft.Identity.Client": "4.30.1",
+          "Microsoft.Identity.Client.Extensions.Msal": "2.18.4",
           "System.Memory": "4.5.4",
-          "System.Security.Cryptography.ProtectedData": "4.7.0",
-          "System.Text.Json": "4.7.2",
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Text.Json": "4.6.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -306,7 +306,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -456,15 +456,51 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/5.0.0-preview3.22168.1": {
+      "Microsoft.Data.Edm/5.0.0.50403": {
         "type": "package",
         "dependencies": {
-          "Azure.Identity": "1.6.0",
-          "Microsoft.Data.SqlClient.SNI.runtime": "5.0.0-preview3.22165.1",
-          "Microsoft.Identity.Client": "4.43.2",
+          "System.Spatial": "5.0.0.50403"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Data.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.Edm.dll": {}
+        }
+      },
+      "Microsoft.Data.OData/5.0.0.50403": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.Edm": "5.0.0.50403",
+          "System.Spatial": "5.0.0.50403"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Data.OData.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.OData.dll": {}
+        }
+      },
+      "Microsoft.Data.Services.Client/5.0.0.50403": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.OData": "5.0.0.50403"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Data.Services.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Data.Services.Client.dll": {}
+        }
+      },
+      "Microsoft.Data.SqlClient/5.0.0-preview2.22096.2": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Identity": "1.5.0",
+          "Microsoft.Data.SqlClient.SNI.runtime": "5.0.0-preview2.22084.1",
+          "Microsoft.Identity.Client": "4.30.1",
           "Microsoft.IdentityModel.JsonWebTokens": "6.8.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.8.0",
-          "Microsoft.SqlServer.Server": "1.0.0",
           "Microsoft.Win32.Registry": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Configuration.ConfigurationManager": "5.0.0",
@@ -494,7 +530,7 @@
           }
         }
       },
-      "Microsoft.Data.SqlClient.SNI.runtime/5.0.0-preview3.22165.1": {
+      "Microsoft.Data.SqlClient.SNI.runtime/5.0.0-preview2.22084.1": {
         "type": "package",
         "runtimeTargets": {
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
@@ -838,7 +874,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
-      "Microsoft.Identity.Client/4.43.2": {
+      "Microsoft.Identity.Client/4.30.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
@@ -847,10 +883,10 @@
           "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Microsoft.Identity.Client.Extensions.Msal/2.19.3": {
+      "Microsoft.Identity.Client.Extensions.Msal/2.18.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Identity.Client": "4.38.0",
+          "Microsoft.Identity.Client": "4.30.0",
           "System.Security.Cryptography.ProtectedData": "4.5.0"
         },
         "compile": {
@@ -1418,6 +1454,15 @@
           }
         }
       },
+      "System.Spatial/5.0.0.50403": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Spatial.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1525,18 +1570,17 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.24.0": {
-      "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
+    "Azure.Core/1.20.0": {
+      "sha512": "q7xigZIBjLjSKJA/Y+VygmJ2iZGiEyNuicN5iRX9oJL7451SulZm/CQ7qd8YCeL5TgNCNYCIrTIqRaams95zHA==",
       "type": "package",
-      "path": "azure.core/1.24.0",
+      "path": "azure.core/1.20.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.24.0.nupkg.sha512",
+        "azure.core.1.20.0.nupkg.sha512",
         "azure.core.nuspec",
-        "azureicon.png",
         "lib/net461/Azure.Core.dll",
         "lib/net461/Azure.Core.xml",
         "lib/net5.0/Azure.Core.dll",
@@ -1544,23 +1588,24 @@
         "lib/netcoreapp2.1/Azure.Core.dll",
         "lib/netcoreapp2.1/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
-        "lib/netstandard2.0/Azure.Core.xml"
+        "lib/netstandard2.0/Azure.Core.xml",
+        "pkgicon.png"
       ]
     },
-    "Azure.Identity/1.6.0": {
-      "sha512": "EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
+    "Azure.Identity/1.5.0": {
+      "sha512": "VfF88dqrgKXZNOS/y4XrX/jmIfP3pkY+hBUzBNpoKml1nR+QshX6XlXWyToLtWV80TDQ1CmUVCJksktDg5+j1w==",
       "type": "package",
-      "path": "azure.identity/1.6.0",
+      "path": "azure.identity/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.identity.1.6.0.nupkg.sha512",
+        "azure.identity.1.5.0.nupkg.sha512",
         "azure.identity.nuspec",
-        "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
-        "lib/netstandard2.0/Azure.Identity.xml"
+        "lib/netstandard2.0/Azure.Identity.xml",
+        "pkgicon.png"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -1848,14 +1893,13 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
-      "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -1864,7 +1908,7 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
         "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
         "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -2155,10 +2199,103 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.SqlClient/5.0.0-preview3.22168.1": {
-      "sha512": "Exh2SQK5vP/9+wW8W+guskCcRC5QzgIVKNckyy7ns7PcfJ/PM8JGlE+IxwcCEhV7Un2mE8I3nBtSGpu2IioK8A==",
+    "Microsoft.Data.Edm/5.0.0.50403": {
+      "sha512": "bJMP0Xdtzn5AHdLPhvBepOBSaf7dk8y8pfAucQNpiJK0VAkbZnFXwA83qDXkUVrulV8OFUQBydVRkEhVUA1pfg==",
       "type": "package",
-      "path": "microsoft.data.sqlclient/5.0.0-preview3.22168.1",
+      "path": "microsoft.data.edm/5.0.0.50403",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CHS/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/CHT/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/DEU/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/ESN/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/FRA/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/ITA/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/JPN/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/KOR/Microsoft.Data.Edm.resources.dll",
+        "lib/net40/Microsoft.Data.Edm.dll",
+        "lib/net40/RUS/Microsoft.Data.Edm.resources.dll",
+        "lib/sl4/CHS/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/CHT/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/DEU/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/ESN/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/FRA/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/ITA/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/JPN/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/KOR/Microsoft.Data.Edm.SL.resources.dll",
+        "lib/sl4/Microsoft.Data.Edm.SL.dll",
+        "lib/sl4/RUS/Microsoft.Data.Edm.SL.resources.dll",
+        "microsoft.data.edm.5.0.0.50403.nupkg.sha512",
+        "microsoft.data.edm.nuspec"
+      ]
+    },
+    "Microsoft.Data.OData/5.0.0.50403": {
+      "sha512": "paD4DahIGa8ExPr248IH+QKlJ7vUkMy6voZYYxXp31KEByOT4EWA98FXt8pDH30fEZvLnUMFQ9qPCCbX9qNF4Q==",
+      "type": "package",
+      "path": "microsoft.data.odata/5.0.0.50403",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CHS/Microsoft.Data.OData.resources.dll",
+        "lib/net40/CHT/Microsoft.Data.OData.resources.dll",
+        "lib/net40/DEU/Microsoft.Data.OData.resources.dll",
+        "lib/net40/ESN/Microsoft.Data.OData.resources.dll",
+        "lib/net40/FRA/Microsoft.Data.OData.resources.dll",
+        "lib/net40/ITA/Microsoft.Data.OData.resources.dll",
+        "lib/net40/JPN/Microsoft.Data.OData.resources.dll",
+        "lib/net40/KOR/Microsoft.Data.OData.resources.dll",
+        "lib/net40/Microsoft.Data.OData.dll",
+        "lib/net40/RUS/Microsoft.Data.OData.resources.dll",
+        "lib/sl4/CHS/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/CHT/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/DEU/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/ESN/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/FRA/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/ITA/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/JPN/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/KOR/Microsoft.Data.OData.SL.resources.dll",
+        "lib/sl4/Microsoft.Data.OData.SL.dll",
+        "lib/sl4/RUS/Microsoft.Data.OData.SL.resources.dll",
+        "microsoft.data.odata.5.0.0.50403.nupkg.sha512",
+        "microsoft.data.odata.nuspec"
+      ]
+    },
+    "Microsoft.Data.Services.Client/5.0.0.50403": {
+      "sha512": "pEKq9JP6DSUPzPB7yujtpnw/6SgZv0ujVtOLipXhg4zLeFxMv5tq4348OeV51RrkpmlZ4RIS+DBIQCdGsWFDPQ==",
+      "type": "package",
+      "path": "microsoft.data.services.client/5.0.0.50403",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CHS/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/CHT/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/DEU/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/ESN/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/FRA/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/ITA/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/JPN/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/KOR/Microsoft.Data.Services.Client.resources.dll",
+        "lib/net40/Microsoft.Data.Services.Client.dll",
+        "lib/net40/RUS/Microsoft.Data.Services.Client.resources.dll",
+        "lib/sl4/CHS/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/CHT/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/DEU/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/ESN/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/FRA/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/ITA/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/JPN/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/KOR/Microsoft.Data.Services.Client.SL.resources.dll",
+        "lib/sl4/Microsoft.Data.Services.Client.SL.dll",
+        "lib/sl4/RUS/Microsoft.Data.Services.Client.SL.resources.dll",
+        "microsoft.data.services.client.5.0.0.50403.nupkg.sha512",
+        "microsoft.data.services.client.nuspec"
+      ]
+    },
+    "Microsoft.Data.SqlClient/5.0.0-preview2.22096.2": {
+      "sha512": "jCh0+/3Sjsnhx8m9P9rXZMRbnFrAaPUwf0h+xsnwgedJEozKw0D09z1Q3vZ5jDquFc9YnM2Gv4kVBXMrQ3aEEg==",
+      "type": "package",
+      "path": "microsoft.data.sqlclient/5.0.0-preview2.22096.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2185,7 +2322,7 @@
         "lib/netstandard2.1/Microsoft.Data.SqlClient.dll",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.pdb",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.xml",
-        "microsoft.data.sqlclient.5.0.0-preview3.22168.1.nupkg.sha512",
+        "microsoft.data.sqlclient.5.0.0-preview2.22096.2.nupkg.sha512",
         "microsoft.data.sqlclient.nuspec",
         "ref/net462/Microsoft.Data.SqlClient.dll",
         "ref/net462/Microsoft.Data.SqlClient.pdb",
@@ -2215,16 +2352,16 @@
         "runtimes/win/lib/netstandard2.1/Microsoft.Data.SqlClient.pdb"
       ]
     },
-    "Microsoft.Data.SqlClient.SNI.runtime/5.0.0-preview3.22165.1": {
-      "sha512": "WuMlYuUMywiMET+0QT5aU3kb1JhBNDRdGOBp8WWShjgk6SDuAEk4zIfOv4DnjOlaBjtSG2JVnnUzJT+rqskHHg==",
+    "Microsoft.Data.SqlClient.SNI.runtime/5.0.0-preview2.22084.1": {
+      "sha512": "4EbBwjppGsy0Qa/wruTV29wSBfjmgqa7oZJUGHERVFe9XBX942d6lq2RJAPLf4FlQ9G3TkLbX8e6o2JOWPnVSg==",
       "type": "package",
-      "path": "microsoft.data.sqlclient.sni.runtime/5.0.0-preview3.22165.1",
+      "path": "microsoft.data.sqlclient.sni.runtime/5.0.0-preview2.22084.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "dotnet.png",
-        "microsoft.data.sqlclient.sni.runtime.5.0.0-preview3.22165.1.nupkg.sha512",
+        "microsoft.data.sqlclient.sni.runtime.5.0.0-preview2.22084.1.nupkg.sha512",
         "microsoft.data.sqlclient.sni.runtime.nuspec",
         "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll",
         "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll",
@@ -2731,10 +2868,10 @@
         "microsoft.extensions.webencoders.nuspec"
       ]
     },
-    "Microsoft.Identity.Client/4.43.2": {
-      "sha512": "m3klctDvIKvc/KTIz3wFXhg2t3+f7/HL2cgUhL7txurkz3q9xs/TzTApXeU/GWWMB6NTSa+fgIV6mWqnKR563A==",
+    "Microsoft.Identity.Client/4.30.1": {
+      "sha512": "xk8tJeGfB2yD3+d7a0DXyV7/HYyEG10IofUHYHoPYKmDbroi/j9t1BqSHgbq1nARDjg7m8Ki6e21AyNU7e/R4Q==",
       "type": "package",
-      "path": "microsoft.identity.client/4.43.2",
+      "path": "microsoft.identity.client/4.30.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2759,14 +2896,14 @@
         "lib/xamarinios10/Microsoft.Identity.Client.xml",
         "lib/xamarinmac20/Microsoft.Identity.Client.dll",
         "lib/xamarinmac20/Microsoft.Identity.Client.xml",
-        "microsoft.identity.client.4.43.2.nupkg.sha512",
+        "microsoft.identity.client.4.30.1.nupkg.sha512",
         "microsoft.identity.client.nuspec"
       ]
     },
-    "Microsoft.Identity.Client.Extensions.Msal/2.19.3": {
-      "sha512": "zVVZjn8aW7W79rC1crioDgdOwaFTQorsSO6RgVlDDjc7MvbEGz071wSNrjVhzR0CdQn6Sefx7Abf1o7vasmrLg==",
+    "Microsoft.Identity.Client.Extensions.Msal/2.18.4": {
+      "sha512": "HpG4oLwhQsy0ce7OWq9iDdLtJKOvKRStIKoSEOeBMKuohfuOWNDyhg8fMAJkpG/kFeoe4J329fiMHcJmmB+FPw==",
       "type": "package",
-      "path": "microsoft.identity.client.extensions.msal/2.19.3",
+      "path": "microsoft.identity.client.extensions.msal/2.18.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2776,7 +2913,7 @@
         "lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.xml",
         "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.dll",
         "lib/netstandard2.0/Microsoft.Identity.Client.Extensions.Msal.xml",
-        "microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
+        "microsoft.identity.client.extensions.msal.2.18.4.nupkg.sha512",
         "microsoft.identity.client.extensions.msal.nuspec"
       ]
     },
@@ -4297,6 +4434,37 @@
         "version.txt"
       ]
     },
+    "System.Spatial/5.0.0.50403": {
+      "sha512": "uDDuvA2R7qR2bTd5OoNQEbaNixqGFiaB8eWqAlmDssYeGC7g6vWLUWgcuxC94Mz/nKRnFB79PqsW1vhbcfbHjw==",
+      "type": "package",
+      "path": "system.spatial/5.0.0.50403",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CHS/System.Spatial.resources.dll",
+        "lib/net40/CHT/System.Spatial.resources.dll",
+        "lib/net40/DEU/System.Spatial.resources.dll",
+        "lib/net40/ESN/System.Spatial.resources.dll",
+        "lib/net40/FRA/System.Spatial.resources.dll",
+        "lib/net40/ITA/System.Spatial.resources.dll",
+        "lib/net40/JPN/System.Spatial.resources.dll",
+        "lib/net40/KOR/System.Spatial.resources.dll",
+        "lib/net40/RUS/System.Spatial.resources.dll",
+        "lib/net40/System.Spatial.dll",
+        "lib/sl4/CHS/System.Spatial.SL.resources.dll",
+        "lib/sl4/CHT/System.Spatial.SL.resources.dll",
+        "lib/sl4/DEU/System.Spatial.SL.resources.dll",
+        "lib/sl4/ESN/System.Spatial.SL.resources.dll",
+        "lib/sl4/FRA/System.Spatial.SL.resources.dll",
+        "lib/sl4/ITA/System.Spatial.SL.resources.dll",
+        "lib/sl4/JPN/System.Spatial.SL.resources.dll",
+        "lib/sl4/KOR/System.Spatial.SL.resources.dll",
+        "lib/sl4/RUS/System.Spatial.SL.resources.dll",
+        "lib/sl4/System.Spatial.SL.dll",
+        "system.spatial.5.0.0.50403.nupkg.sha512",
+        "system.spatial.nuspec"
+      ]
+    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -4620,10 +4788,11 @@
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.6",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.6",
-      "Microsoft.Data.SqlClient >= 5.0.0-preview3.22168.1",
+      "Microsoft.Data.Services.Client >= 5.0.0.50403",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.5.22302.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0-preview.5.22302.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.5.22302.2",
+      "Microsoft.SqlServer.Server >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
@@ -4678,9 +4847,9 @@
             "target": "Package",
             "version": "[6.0.6, )"
           },
-          "Microsoft.Data.SqlClient": {
+          "Microsoft.Data.Services.Client": {
             "target": "Package",
-            "version": "[5.0.0-preview3.22168.1, )"
+            "version": "[5.0.0.50403, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -4695,6 +4864,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.0-preview.5.22302.2, )"
+          },
+          "Microsoft.SqlServer.Server": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",
@@ -4722,5 +4895,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.Edm 5.0.0.50403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.Edm",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.OData 5.0.0.50403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.OData",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.Services.Client 5.0.0.50403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Data.Services.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Spatial 5.0.0.50403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Spatial",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
