@@ -1,0 +1,17 @@
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.deps.json
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.dll
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.pdb
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.AssemblyReference.cache
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.AssemblyInfoInputs.cache
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.AssemblyInfo.cs
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.CoreCompileInputs.cache
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.dll
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\refint\Abby.DataAccess.dll
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.pdb
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\ref\Abby.DataAccess.dll
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.dll
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.pdb
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.CopyComplete
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.runtimeconfig.json
+C:\projects\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.genruntimeconfig.cache
