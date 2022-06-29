@@ -1,4 +1,5 @@
 
+using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using AbbyWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -9,24 +10,26 @@ namespace AbbyWeb.Pages.Admin.FoodTypes
     [BindProperties]  
     public class CreateModel : PageModel
     {
-        private readonly ApplicationDbContext _db;
-    
+        private readonly IUnitOfWork _unitOfWork;
+
         public FoodType FoodType { get; set; }
-        public CreateModel(ApplicationDbContext db) //implement the model class using the constructor.
+
+        public CreateModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public void OnGet()
         {
         }
-        public async Task<IActionResult> OnPost()  //creating handler
+
+        public async Task<IActionResult> OnPost()
         {
-            
-            if(ModelState.IsValid)
+
+            if (ModelState.IsValid)
             {
-                await _db.FoodType.AddAsync(FoodType);  //tells entity frame work to add the object category and add inside the category table
-                await _db.SaveChangesAsync(); //save all the changes in the db
-                TempData["Success"] = "FoodType Created Successfully";
+                _unitOfWork.FoodType.Add(FoodType);
+                _unitOfWork.Save();
+                TempData["success"] = "FoodType created successfully";
                 return RedirectToPage("Index");
             }
             return Page();

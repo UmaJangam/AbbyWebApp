@@ -1,4 +1,5 @@
 
+using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using AbbyWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -9,29 +10,29 @@ namespace AbbyWeb.Pages.Admin.FoodTypes
     [BindProperties]  
     public class EditModel : PageModel
     {
-        private readonly ApplicationDbContext _db;
-    
+        private readonly IUnitOfWork _unitOfWork;
+
         public FoodType FoodType { get; set; }
-        public EditModel(ApplicationDbContext db) //implement the model class using the constructor.
+
+        public EditModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public void OnGet(int id)
         {
-            FoodType = _db.FoodType.Find(id);
-           // Category = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            FoodType = _unitOfWork.FoodType.GetFirstOrDefault(u => u.Id == id);
             //Category = _db.Category.FirstOrDefault(u=>u.Id==id);
             //Category = _db.Category.SingleOrDefault(u=>u.Id==id);
             //Category = _db.Category.Where(u => u.Id == id).FirstOrDefault();
         }
-        public async Task<IActionResult> OnPost()  //creating handler
+
+        public async Task<IActionResult> OnPost()
         {
-       
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                _db.FoodType.Update(FoodType); 
-                await _db.SaveChangesAsync();
-                TempData["Success"] = "FoodType Updated Successfully";
+                _unitOfWork.FoodType.Update(FoodType);
+                _unitOfWork.Save();
+                TempData["success"] = "FoodType updated successfully";
                 return RedirectToPage("Index");
             }
             return Page();
