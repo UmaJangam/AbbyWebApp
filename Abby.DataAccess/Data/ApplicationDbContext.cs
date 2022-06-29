@@ -10,6 +10,6 @@ namespace AbbyWeb.DataAccess.Data
 
         }
         public DbSet<Category> Category { get;set;} //Name of the datatable in the database
-        public DbSet<FoodType> FoodType { get; set; } //Name if the datatable in the database
+        public DbSet<FoodType> FoodType { get; set; } 
     }
 }
