@@ -1,4 +1,5 @@
 
+using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using AbbyWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -8,16 +9,20 @@ namespace AbbyWeb.Pages.Admin.Categories
 {
     public class IndexModel : PageModel
     {
+        private readonly IUnitOfWork _unitOfWork;
 
-        private readonly ApplicationDbContext _db;
-        public IEnumerable<Category> Categories { get; set; } //retrieve the data form the database in the form of list
-        public IndexModel(ApplicationDbContext db) //implement the model class using the constructor.
+        public IEnumerable<Category> Categories { get; set; }
+
+        public IndexModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
+
         public void OnGet()
         {
-            Categories = _db.Category; //accepting the categories from the database
+            Categories = _unitOfWork.Category.GetAll();
         }
+
+
     }
 }

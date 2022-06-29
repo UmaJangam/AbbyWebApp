@@ -1,4 +1,5 @@
 
+using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using AbbyWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -6,35 +7,40 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AbbyWeb.Pages.Admin.Categories
 {
-    [BindProperties]  
+    [BindProperties]
     public class DeleteModel : PageModel
     {
-        private readonly ApplicationDbContext _db;
-    
+        private readonly IUnitOfWork _unitOfWork;
+
         public Category Category { get; set; }
-        public DeleteModel(ApplicationDbContext db) //implement the model class using the constructor.
+
+
+        public DeleteModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public void OnGet(int id)
         {
+            Category = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
+            //Category = _db.Category.FirstOrDefault(u=>u.Id==id);
+            //Category = _db.Category.SingleOrDefault(u=>u.Id==id);
+            //Category = _db.Category.Where(u => u.Id == id).FirstOrDefault();
+        }
 
-            Category = _db.Category.Find(id);
-        }
-        public async Task<IActionResult> OnPost()  //creating handler
+        public async Task<IActionResult> OnPost()
         {
-          
-                var categoryFromDb =  _db.Category.Find(Category.Id);
-                if(categoryFromDb != null)
-                {
-                    _db.Category.Remove(categoryFromDb);
-                    await _db.SaveChangesAsync();
-                TempData["Success"] = "Category Deleted Successfully";
+            var categoryFromDb = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == Category.Id);
+            if (categoryFromDb != null)
+            {
+                _unitOfWork.Category.Remove(categoryFromDb);
+                _unitOfWork.Save();
+                TempData["success"] = "Category deleted successfully";
                 return RedirectToPage("Index");
-                }
-            
+
+            }
+
             return Page();
+
         }
-          
     }
 }
