@@ -5,16 +5,15 @@ using Abby.DataAccess.Repository.IRepository;
 
 namespace Abby.DataAccess.Repository
 {
-    public class Repository<T> : IRepository <T> where T : class
+    public class Repository<T> : IRepository<T> where T : class
     {
         private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
 
-
-
         public Repository(ApplicationDbContext db) //implement the model class using the constructor.
         {
             _db = db;
+            //_db.MenuItem.Include(u => u.FoodType).Include(u => u.Category); //FoodType,Category...map the food type id and category id 
             this.dbSet = db.Set<T>(); //connect to the dbcontext internally
         }
         public void Add(T entity)
@@ -22,13 +21,21 @@ namespace Abby.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderby = null, string? includeProperties = null)
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;       //same Index.cshtml.cs  FoodTypes = _db.FoodType accepting in lists
+            if(includeProperties != null)
+            {//abc,,xyz-> abc xyz
+                foreach(var includeProperty in includeProperties.Split(
+                    new char[] {','},StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>>? filter = null)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)

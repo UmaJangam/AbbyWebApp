@@ -10,3 +10,5 @@ C:\projects\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.dll
 C:\projects\Abby\Abby.Utility\obj\Debug\net6.0\refint\Abby.Utility.dll
 C:\projects\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.pdb
 C:\projects\Abby\Abby.Utility\obj\Debug\net6.0\ref\Abby.Utility.dll
+C:\projects\Abby\Abby.Utility\bin\Debug\net6.0\Abby.Utility.runtimeconfig.json
+C:\projects\Abby\Abby.Utility\obj\Debug\net6.0\Abby.Utility.genruntimeconfig.cache
