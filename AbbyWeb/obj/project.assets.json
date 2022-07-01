@@ -2385,8 +2385,9 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Abby.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0-preview.5.22302.2"
         },
         "compile": {
           "bin/placeholder/Abby.DataAccess.dll": {}
@@ -2398,6 +2399,10 @@
       "Abby.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0-preview.5.22302.2"
+        },
         "compile": {
           "bin/placeholder/Abby.Models.dll": {}
         },
