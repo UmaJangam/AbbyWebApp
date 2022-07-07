@@ -13,8 +13,8 @@ namespace Abby.DataAccess.Repository
         public Repository(ApplicationDbContext db) //implement the model class using the constructor.
         {
             _db = db;
-            //_db.MenuItem.Include(u => u.FoodType).Include(u => u.Category); //FoodType,Category...map the food type id and category id 
-            //_db.MenuItem.OrderBy(u => u.Name);
+            _db.ShoppingCart.Include(u => u.MenuItem).ThenInclude(u => u.Category); //FoodType,Category...map the food type id and category id 
+            //_db.MenuItem.OrderBy(u => u.Name);                                             //then include any child elements need to add
             this.dbSet = db.Set<T>(); //connect to the dbcontext internally
         }
         public void Add(T entity)
