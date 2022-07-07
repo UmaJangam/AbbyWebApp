@@ -634,3 +634,4 @@ C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-a
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\System.Memory.Data.dll
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
