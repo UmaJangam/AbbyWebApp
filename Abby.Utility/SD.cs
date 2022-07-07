@@ -12,5 +12,7 @@ namespace Abby.Utility
         public const string FrontDeskRole = "Front";
         public const string KitchenRole = "Kitchen";
         public const string CustomerRole = "Customer";
+
+        public static string SessionCart { get; set; }
     }
 }
