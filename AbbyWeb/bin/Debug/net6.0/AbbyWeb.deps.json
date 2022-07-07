@@ -52,6 +52,7 @@
           "Microsoft.Identity.Web.UI": "1.25.1",
           "Microsoft.SqlServer.Server": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.6",
+          "Stripe.net": "39.122.0",
           "System.Data.SqlClient": "4.8.3",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "6.0.0.0",
@@ -2737,6 +2738,21 @@
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
+        }
+      },
+      "Stripe.net/39.122.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "39.122.0.0",
+            "fileVersion": "39.122.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -6510,6 +6526,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Stripe.net/39.122.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RJ4Nnvxg0nVWNi1CQgn8qSwcbRXIYer0atAN2A88yTu3HtlzmQHRl4nfa4mA3ytxw57BFaGJBWIcuxG1mlRSRw==",
+      "path": "stripe.net/39.122.0",
+      "hashPath": "stripe.net.39.122.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
