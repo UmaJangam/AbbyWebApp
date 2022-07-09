@@ -25,6 +25,6 @@ namespace Abby.Models
 		public int Count { get; set; }
 		[Required]
 		public double Price { get; set; }
-		public string Name { get; set; }
+		public string? Name { get; set; }
 	}
 }

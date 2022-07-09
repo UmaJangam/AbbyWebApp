@@ -1,4 +1,5 @@
-﻿using Abby.Models;
+﻿using Abby.DataAccess.Repository.IRepository;
+using Abby.Models;
 using AbbyWeb.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abby.DataAccess.Repository.IRepository
+namespace Abby.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -18,7 +19,7 @@ namespace Abby.DataAccess.Repository.IRepository
             FoodType = new FoodTypeRepository(_db);
             MenuItem = new MenuItemRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
-           OrderDetail = new OrderDetailRepository(_db);
+            OrderDetail = new OrderDetailRepository(_db);
             OrderHeader = new OrderHeaderRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
         }

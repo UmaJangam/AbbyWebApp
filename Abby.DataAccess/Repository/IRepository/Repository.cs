@@ -26,8 +26,12 @@ namespace Abby.DataAccess.Repository
              Func<IQueryable<T>, IOrderedQueryable<T>>? orderby = null,
             string? includeProperties = null)
         {
-            IQueryable<T> query = dbSet;       //same Index.cshtml.cs  FoodTypes = _db.FoodType accepting in lists
-            if(includeProperties != null)
+            IQueryable<T> query = dbSet;  //same Index.cshtml.cs  FoodTypes = _db.FoodType accepting in lists
+            if (filter != null)
+            {
+                query = query.Where(filter);      //filter for every condition with where
+            }
+            if (includeProperties != null)
             {//abc,,xyz-> abc xyz
                 foreach(var includeProperty in includeProperties.Split(
                     new char[] {','},StringSplitOptions.RemoveEmptyEntries))
@@ -39,6 +43,7 @@ namespace Abby.DataAccess.Repository
             {
                 return orderby(query).ToList();
             }
+            
             return query.ToList();
         }
 
