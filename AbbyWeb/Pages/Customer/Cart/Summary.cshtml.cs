@@ -73,14 +73,14 @@ namespace AbbyWeb.Pages.Customer.Cart
                         Count = item.Count
                     };
                     _unitOfWork.OrderDetail.Add(orderDetails);
-                    
+                    _unitOfWork.Save();
                 }
                
                 //_unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);
                 _unitOfWork.Save();
 
 
-                var domain = "https://localhost:44322/";         //this is the stripe implementation  //this is like we call an API
+                var domain = "https://localhost:7179/";         //this is the stripe implementation  //this is like we call an API
                 var options = new SessionCreateOptions       //checkout   
                 {
                     LineItems = new List<SessionLineItemOptions>()                 

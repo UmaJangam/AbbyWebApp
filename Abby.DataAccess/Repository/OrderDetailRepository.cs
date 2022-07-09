@@ -13,14 +13,9 @@ namespace Abby.DataAccess.Repository
             _db = db;
         }
 
-    
-
-       
-       
-            public void Update(OrderDetails obj)
-            {
-                _db.OrderDetails.Update(obj);
-            }
-        
+        public void Update(OrderDetails obj)
+        {
+            _db.OrderDetails.Update(obj);
+        }
     }
 }
