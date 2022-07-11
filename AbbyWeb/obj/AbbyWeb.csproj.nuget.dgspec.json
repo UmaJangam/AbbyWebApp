@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\projects\\Abby\\Abby.Models\\Abby.Models.csproj": {
                 "projectPath": "C:\\projects\\Abby\\Abby.Models\\Abby.Models.csproj"
+              },
+              "C:\\projects\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+                "projectPath": "C:\\projects\\Abby\\Abby.Utility\\Abby.Utility.csproj"
               }
             }
           }

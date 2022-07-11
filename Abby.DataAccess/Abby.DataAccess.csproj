@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Abby.Models\Abby.Models.csproj" />
+    <ProjectReference Include="..\Abby.Utility\Abby.Utility.csproj" />
   </ItemGroup>
 
 </Project>
