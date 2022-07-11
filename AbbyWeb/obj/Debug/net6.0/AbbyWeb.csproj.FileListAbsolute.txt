@@ -635,3 +635,14 @@ C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\System.Memory.Data.dll
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
 C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Cosmos.CRTCompat.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Azure.DocumentDB.Core.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\MailKit.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\MimeKit.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\SendGrid.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\projects\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll

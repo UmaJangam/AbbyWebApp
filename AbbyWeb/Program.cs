@@ -42,8 +42,21 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LogoutPath = "/Identity/Account/Logout";
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 });
-var app = builder.Build();
 
+builder.Services.AddDistributedMemoryCache();   
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(100);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+builder.Services.AddAuthentication().AddFacebook(options =>
+{
+    options.AppId = "397080732264989";
+    options.AppSecret = "50c293e56a8c58977879782d3d6531dc";
+});
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
