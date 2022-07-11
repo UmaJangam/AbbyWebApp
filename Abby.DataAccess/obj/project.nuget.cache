@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DpOxIPjulbUFgrWrb6uP9E/1EeVFdCnPvhHPeK85xT+QMIO6DWolqZ7XLOHGTZYzz/cdBM9GOkNusQwy9MQ8rw==",
+  "dgSpecHash": "U6flOD948LN7vLXEueEhL6NrhSFJc84CnEriFJfUaCtsmEC39OTzNVcX2KD4Dl4ZF+EkEYY0l56fU1GSYMf1rA==",
   "success": true,
   "projectFilePath": "C:\\projects\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -155,6 +155,8 @@
     "C:\\Users\\umaja\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\umaja\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\umaja\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\umaja\\.nuget\\packages\\sendgrid\\9.28.0\\sendgrid.9.28.0.nupkg.sha512",
+    "C:\\Users\\umaja\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\umaja\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\umaja\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\umaja\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

@@ -4630,6 +4630,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Abby.Models": "1.0.0",
+          "Abby.Utility": "1.0.0",
           "AspNetCore.Tools.Session.NewtonsoftJson": "1.4.0",
           "FluentAssertions": "6.7.0",
           "MailKit": "3.3.0",

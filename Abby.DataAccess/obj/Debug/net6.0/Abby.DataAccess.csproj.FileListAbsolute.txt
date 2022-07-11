@@ -294,3 +294,5 @@ C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\refs\System.Xml.XPath.dll
 C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
 C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\refs\WindowsBase.dll
 C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Utility.dll
+C:\projects\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Utility.pdb
