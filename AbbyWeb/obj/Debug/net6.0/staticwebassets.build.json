@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eXFRKDMEYNyD5HO6THcQ3DvNQ+CzvcS0Mza4q2ZxR0Y=",
+  "Hash": "BQZa3q9YT2l+YU524dt+8uyVZoieZ+GmbuFmg6Wu8LI=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\flower1.jpg",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\lawn_leaf.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/flower1.jpg",
+      "RelativePath": "images/lawn_leaf.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\flower1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\flower2.jfif",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\153b54f4-6adb-4395-915a-19041c55f417.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/flower2.jfif",
+      "RelativePath": "images/menuItems/153b54f4-6adb-4395-915a-19041c55f417.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\flower2.jfif"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\153b54f4-6adb-4395-915a-19041c55f417.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\flower3.jfif",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\17a3024b-b8b7-443f-a6f8-a20b00aa0afe.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/flower3.jfif",
+      "RelativePath": "images/menuItems/17a3024b-b8b7-443f-a6f8-a20b00aa0afe.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\flower3.jfif"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\17a3024b-b8b7-443f-a6f8-a20b00aa0afe.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\flower4.jfif",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\1ec74815-31ce-4bf0-8761-c6e8f242b735.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/flower4.jfif",
+      "RelativePath": "images/menuItems/1ec74815-31ce-4bf0-8761-c6e8f242b735.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\flower4.jfif"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\1ec74815-31ce-4bf0-8761-c6e8f242b735.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\120fc69d-8022-418d-b32f-490c8b0c8819.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\5f181cc7-76d3-44b4-b50e-00118a400890.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/120fc69d-8022-418d-b32f-490c8b0c8819.png",
+      "RelativePath": "images/menuItems/5f181cc7-76d3-44b4-b50e-00118a400890.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\120fc69d-8022-418d-b32f-490c8b0c8819.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\5f181cc7-76d3-44b4-b50e-00118a400890.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\2c0ae394-e34d-40db-adaa-c196da348e4f.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\888dfda3-0563-43c4-ab11-845abcd1db54.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/2c0ae394-e34d-40db-adaa-c196da348e4f.png",
+      "RelativePath": "images/menuItems/888dfda3-0563-43c4-ab11-845abcd1db54.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\2c0ae394-e34d-40db-adaa-c196da348e4f.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\888dfda3-0563-43c4-ab11-845abcd1db54.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\2fa4fe36-35a5-4b6b-ab66-8ca49a4335ff.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\8da04741-98e7-4c5a-9719-52cb766254d8.png",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/2fa4fe36-35a5-4b6b-ab66-8ca49a4335ff.png",
+      "RelativePath": "images/menuItems/8da04741-98e7-4c5a-9719-52cb766254d8.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\2fa4fe36-35a5-4b6b-ab66-8ca49a4335ff.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\8da04741-98e7-4c5a-9719-52cb766254d8.png"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\3f78cdbb-b938-4b91-aecf-27bf238a4888.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\a26cb7a3-5b06-432e-aa99-e205cbc35892.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/3f78cdbb-b938-4b91-aecf-27bf238a4888.png",
+      "RelativePath": "images/menuItems/a26cb7a3-5b06-432e-aa99-e205cbc35892.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\3f78cdbb-b938-4b91-aecf-27bf238a4888.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\a26cb7a3-5b06-432e-aa99-e205cbc35892.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\4ad48930-e17b-4a35-b28b-3a792c65e3d5.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\aaebb8b6-ad3e-4f83-9657-ff56ae54f140.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/4ad48930-e17b-4a35-b28b-3a792c65e3d5.png",
+      "RelativePath": "images/menuItems/aaebb8b6-ad3e-4f83-9657-ff56ae54f140.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\4ad48930-e17b-4a35-b28b-3a792c65e3d5.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\aaebb8b6-ad3e-4f83-9657-ff56ae54f140.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\53609cdc-715e-48b3-9f4b-378af8fe9093.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\ae189f39-12d9-4f53-b75d-54e8ac30b893.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/53609cdc-715e-48b3-9f4b-378af8fe9093.png",
+      "RelativePath": "images/menuItems/ae189f39-12d9-4f53-b75d-54e8ac30b893.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\53609cdc-715e-48b3-9f4b-378af8fe9093.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\ae189f39-12d9-4f53-b75d-54e8ac30b893.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\540cdc7b-01db-42d5-a606-6dcd259c7d62.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\b663140b-0bed-4595-af5a-bc8bcc793002.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/540cdc7b-01db-42d5-a606-6dcd259c7d62.png",
+      "RelativePath": "images/menuItems/b663140b-0bed-4595-af5a-bc8bcc793002.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\540cdc7b-01db-42d5-a606-6dcd259c7d62.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\b663140b-0bed-4595-af5a-bc8bcc793002.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\5ef751c9-44da-4387-99aa-9f9a1463e55a.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\b73534d3-d9cc-412d-83d1-440a1477c974.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/5ef751c9-44da-4387-99aa-9f9a1463e55a.png",
+      "RelativePath": "images/menuItems/b73534d3-d9cc-412d-83d1-440a1477c974.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\5ef751c9-44da-4387-99aa-9f9a1463e55a.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\b73534d3-d9cc-412d-83d1-440a1477c974.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\62b798b9-c0bc-4df2-9021-3a8268820280.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\cd765e54-6974-4eb1-8607-186aa7eb9290.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/62b798b9-c0bc-4df2-9021-3a8268820280.png",
+      "RelativePath": "images/menuItems/cd765e54-6974-4eb1-8607-186aa7eb9290.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\62b798b9-c0bc-4df2-9021-3a8268820280.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\cd765e54-6974-4eb1-8607-186aa7eb9290.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\76c0c4e3-0b09-4153-813a-a9a4d6e96511.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\d28cd390-7c9d-43a8-94bc-aca5c39cd80d.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/76c0c4e3-0b09-4153-813a-a9a4d6e96511.png",
+      "RelativePath": "images/menuItems/d28cd390-7c9d-43a8-94bc-aca5c39cd80d.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\76c0c4e3-0b09-4153-813a-a9a4d6e96511.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\d28cd390-7c9d-43a8-94bc-aca5c39cd80d.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\95980145-3ffc-491a-8587-1bdb64f4db66.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\d4199b9f-8463-4fa3-8587-eaf6bdf38848.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/95980145-3ffc-491a-8587-1bdb64f4db66.png",
+      "RelativePath": "images/menuItems/d4199b9f-8463-4fa3-8587-eaf6bdf38848.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\95980145-3ffc-491a-8587-1bdb64f4db66.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\d4199b9f-8463-4fa3-8587-eaf6bdf38848.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\aeb289e1-6f31-4b5c-ade9-772add33167f.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\dd194f96-3e76-44d7-986e-3e32954d0910.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/aeb289e1-6f31-4b5c-ade9-772add33167f.png",
+      "RelativePath": "images/menuItems/dd194f96-3e76-44d7-986e-3e32954d0910.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\aeb289e1-6f31-4b5c-ade9-772add33167f.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\dd194f96-3e76-44d7-986e-3e32954d0910.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\b1a677a0-c12a-44ca-b536-852cbea40dbb.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\fa86fed7-f4d9-4a6e-adb3-90142a66d0cd.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/b1a677a0-c12a-44ca-b536-852cbea40dbb.png",
+      "RelativePath": "images/menuItems/fa86fed7-f4d9-4a6e-adb3-90142a66d0cd.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\b1a677a0-c12a-44ca-b536-852cbea40dbb.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\fa86fed7-f4d9-4a6e-adb3-90142a66d0cd.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\e44a96ce-d702-44f6-bb44-d3a92035df1e.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\fce3d6df-2304-4671-9064-0df4c0dccf7f.jpg",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/e44a96ce-d702-44f6-bb44-d3a92035df1e.png",
+      "RelativePath": "images/menuItems/fce3d6df-2304-4671-9064-0df4c0dccf7f.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\e44a96ce-d702-44f6-bb44-d3a92035df1e.png"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\fce3d6df-2304-4671-9064-0df4c0dccf7f.jpg"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\f63b0f2f-f3d7-4dbb-962d-555a03b9828e.png",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\mild.png",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/menuItems/f63b0f2f-f3d7-4dbb-962d-555a03b9828e.png",
+      "RelativePath": "images/mild.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\f63b0f2f-f3d7-4dbb-962d-555a03b9828e.png"
+      "OriginalItemSpec": "wwwroot\\images\\mild.png"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\pecock.jfif",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\spicy.png",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/pecock.jfif",
+      "RelativePath": "images/spicy.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pecock.jfif"
+      "OriginalItemSpec": "wwwroot\\images\\spicy.png"
     },
     {
-      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\redrose2.jfif",
+      "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\images\\verySpicy.png",
       "SourceId": "AbbyWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\",
       "BasePath": "_content/AbbyWeb",
-      "RelativePath": "images/redrose2.jfif",
+      "RelativePath": "images/verySpicy.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,7 +456,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\redrose2.jfif"
+      "OriginalItemSpec": "wwwroot\\images\\verySpicy.png"
     },
     {
       "Identity": "C:\\projects\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",
