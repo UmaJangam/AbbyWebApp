@@ -16,6 +16,6 @@ namespace Abby.Utility
         public const string StatusCompleted = "Completed"; //
         public const string StatusCancelled = "Cancelled";
         public const string StatusRefunded = "Refunded";
-        public static string SessionCart { get; set; }
+        public const string SessionCart = "SessionCart";
     }
 }

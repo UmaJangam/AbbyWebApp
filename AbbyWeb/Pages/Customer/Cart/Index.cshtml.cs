@@ -53,7 +53,7 @@ namespace AbbyWeb.Pages.Customer.Cart
 
                 _unitOfWork.ShoppingCart.Remove(cart);
                 _unitOfWork.Save();
-                HttpContext.Session.SetInt32(SD.SessionCart, count);
+                HttpContext.Session.SetInt32(SD.SessionCart, count);  //when the item is removed from the cart will save the session
             }
             else
             {
@@ -70,7 +70,7 @@ namespace AbbyWeb.Pages.Customer.Cart
 
             _unitOfWork.ShoppingCart.Remove(cart);
             _unitOfWork.Save();
-            //HttpContext.Session.SetInt32(SD.SessionCart, count);
+            HttpContext.Session.SetInt32(SD.SessionCart, count);
             return RedirectToPage("/Customer/Cart/Index");
         }
 
