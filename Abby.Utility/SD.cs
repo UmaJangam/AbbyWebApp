@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Abby.Utility
+﻿namespace Abby.Utility
 {
     public static class SD
     {

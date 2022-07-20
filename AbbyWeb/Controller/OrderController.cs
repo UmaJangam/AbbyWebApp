@@ -1,10 +1,7 @@
 ﻿using Abby.DataAccess.Repository.IRepository;
 using Abby.Utility;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using System.Linq;
 
 namespace AbbyWeb.Controllers
 {

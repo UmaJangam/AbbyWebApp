@@ -3,21 +3,13 @@ using Abby.DataAccess.Repository.IRepository;
 using AbbyWeb.DataAccess.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Builder;
-using FluentAssertions.Common;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using Abby.Models;
 using Abby.Utility;
 using Stripe;
 using Abby.DataAccess.Repository;
 using Abby.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
-//var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
-
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//options.UseSqlServer(connectionString));;
 
 // Add services to the container.
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();

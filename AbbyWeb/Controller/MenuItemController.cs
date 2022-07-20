@@ -1,7 +1,5 @@
 ﻿using Abby.DataAccess.Repository.IRepository;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
 
 namespace AbbyWeb.Controllers
 {

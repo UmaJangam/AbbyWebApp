@@ -1,4 +1,4 @@
- 
+
 using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using Abby.Models.ViewModel;
@@ -6,8 +6,6 @@ using Abby.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace AbbyWeb.Pages.Admin.Order
 {
