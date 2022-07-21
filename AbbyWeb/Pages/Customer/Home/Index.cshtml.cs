@@ -1,9 +1,6 @@
 using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace AbbyWeb.Pages.Customer.Home
 {

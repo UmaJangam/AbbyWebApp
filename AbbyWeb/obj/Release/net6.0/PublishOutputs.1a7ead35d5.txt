@@ -1,4 +1,6 @@
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\AbbyWeb.exe
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Cosmos.CRTCompat.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\appsettings.json
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\refs\Microsoft.AspNetCore.Antiforgery.dll
@@ -297,8 +299,10 @@ C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Azure.Security.KeyVault.C
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Azure.Security.KeyVault.Secrets.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\FluentAssertions.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\MailKit.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -308,6 +312,7 @@ C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Iden
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.DocumentDB.Core.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.Locator.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
@@ -373,6 +378,7 @@ C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.We
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\MimeKit.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.Common.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.Configuration.dll
@@ -383,6 +389,10 @@ C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.Packaging.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.ProjectModel.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.Protocol.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\NuGet.Versioning.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\BouncyCastle.Crypto.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\SendGrid.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\StarkbankEcdsa.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\Stripe.net.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\System.Composition.AttributedModel.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\System.Composition.Convention.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\System.Composition.Hosting.dll
@@ -590,6 +600,8 @@ C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\ko\System.Spatial.resourc
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\ru\System.Spatial.resources.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\zh-Hans\System.Spatial.resources.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\zh-Hant\System.Spatial.resources.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\projects\Abby\AbbyWeb\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll

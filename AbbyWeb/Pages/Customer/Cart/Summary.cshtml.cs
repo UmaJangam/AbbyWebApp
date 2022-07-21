@@ -80,7 +80,7 @@ namespace AbbyWeb.Pages.Customer.Cart
                 _unitOfWork.Save();
 
 
-                var domain = "https://localhost:7179/";         //this is the stripe implementation  //this is like we call an API
+                var domain = "http://localhost:800/";         //this is the stripe implementation  //this is like we call an API
                 var options = new SessionCreateOptions       //checkout   
                 {
                     LineItems = new List<SessionLineItemOptions>()                 

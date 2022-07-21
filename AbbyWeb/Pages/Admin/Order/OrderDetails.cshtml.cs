@@ -5,8 +5,6 @@ using Abby.Utility;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Stripe;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace AbbyWeb.Pages.Admin.Order
 {

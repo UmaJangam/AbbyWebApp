@@ -1,8 +1,6 @@
 
 using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
-using AbbyWeb.DataAccess.Data;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AbbyWeb.Pages.Admin.Categories

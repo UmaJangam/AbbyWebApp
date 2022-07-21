@@ -1,10 +1,7 @@
 ﻿using Abby.DataAccess.Repository.IRepository;
 using Abby.Utility;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace AbbyWeb.ViewComponents
 {
